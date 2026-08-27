@@ -1,0 +1,3 @@
+DROP SCHEMA {schema_name} [ CASCADE | RESTRICT]
+
+DROP SCHEMA public3

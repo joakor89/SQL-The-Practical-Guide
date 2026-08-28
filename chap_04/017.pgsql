@@ -6,3 +6,4 @@ CREATE TABLE employee (
     phone VARCHAR(20),
     address VARCHAR(100)
 );
+

@@ -16,3 +16,15 @@ CREATE TABLE employee_bonus (
     FOREIGN KEY (employee_id) REFERENCES employee(id),
     CHECK (currency = 'USD' or currency = 'EUR')
 );
+
+
+
+
+
+
+
+
+
+
+
+

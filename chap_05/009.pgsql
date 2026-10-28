@@ -11,3 +11,24 @@ SELECT
     30
 FROM
     event;
+
+INSERT INTO
+    event_ticket (event_id, category, price, capacity)
+SELECT
+    id,
+    'B',
+    80,
+    50
+FROM
+    event;
+
+INSERT INTO
+    event_ticket (event_id, category, price, capacity)
+SELECT
+    id,
+    'C',
+    60,
+    100
+FROM
+    event;
+
